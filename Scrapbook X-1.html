@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Scrapbook Tenwan</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header aria-label="Site Header" class="shadow-sm">
+        <div class="mx-auto flex h-16 max-w-screen-xxl items-center justify-between px-4 bg-cyan-300">
+            <div class="flex w-0 flex-1 lg:hidden">
+                <button class="rounded-full bg-gray-100 p-2 text-gray-600" type="button">
+                    <span class="sr-only">Account</span>
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="#">
+                    <span class="sr-only">Logo</span>
+                    <span class="h-10 w-20 rounded-lg bg-gray-200"></span>
+                </a>
+
+                <form class="mb-0 hidden lg:flex">
+                    <div class="relative">
+                        <input class="h-10 rounded-lg border-gray-200 pr-10 text-sm placeholder-gray-300 focus:z-10"
+                            placeholder="Search..." type="text" />
+
+                        <button type="submit" class="absolute inset-y-0 right-0 rounded-r-lg p-2 text-gray-600">
+                            <span class="sr-only">Submit Search</span>
+                            <svg class="h-5 w-5" fill="currentColor" viewbox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                    fill-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="flex w-0 flex-1 justify-end lg:hidden">
+                <button class="rounded-full bg-gray-100 p-2 text-gray-500" type="button">
+                    <span class="sr-only">Menu</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd"
+                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <nav aria-label="Site Nav"
+                class="hidden items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1">
+                <a class="text-gray-900" href="index.html">Beranda</a>
+                <a class="text-gray-900" href="about.html">Tentang</a>
+                <a class="text-gray-900" href="blog.html">Blog</a>
+                <a class="text-gray-900" href="project.html">Projek</a>
+                <a class="text-gray-900" href="contact.html">Kontak</a>
+            </nav>
+
+            <div class="hidden items-center gap-4 lg:flex">
+                <a href="#" class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-600">
+                    Log in
+                </a>
+
+                <a href="#" class="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white">
+                    Sign up
+                </a>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-100 lg:hidden bg-cyan-300">
+            <nav class="flex items-center justify-center overflow-x-auto p-4 text-sm font-medium">
+                <a class="flex-shrink-0 pl-4 text-gray-900" href="index.html">Beranda</a>
+                <a class="flex-shrink-0 pl-4 text-gray-900" href="about.html">Tentang</a>
+                <a class="flex-shrink-0 pl-4 text-gray-900" href="blog.html">Blog</a>
+                <a class="flex-shrink-0 pl-4 text-gray-900" href="project.html">Projek</a>
+                <a class="flex-shrink-0 pl-4 text-gray-900" href="contact.html">Kontak</a>
+            </nav>
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- content -->
+    <!-- content head -->
+    <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-3xl font-bold sm:text-4xl">
+                    MEMBUAT SCRAPBOOK FRAME DENGAN KEARIFAN LOKAL
+                </h2>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
+                    <img alt="Party" src="assets/images/Scrapbook Tenwan.jpg"
+                        class="absolute inset-0 h-full w-full object-cover" />
+                </div>
+
+                <div class="lg:py-16">
+                    <article class="space-y-4 text-gray-600">
+                        <p>
+                            Apa itu scrapbook?
+                        </p>
+
+                        <p>
+                            Scrapbook merupakan seni dan teknik menghias album foto atau pribadi, agar penampilannya
+                            menjadi lebih indah. Scrapbook tidak hanya sekedar menempel kertas bergambar, tetapi juga
+                            menungkan ekspresi dengan harmonitas warna, motif serta bentuk. Seni scrapbook ditemukan di
+                            Inggris pada abad ke-15 yang berasal dari kata scrap artinya barang sisa, awalnya untuk
+                            mengkompilasi resep masakan, puisi dan kata-kata indah. Dalam perkembanganya, media dan
+                            material scrapbook menjadi lebih bervariasi. Media pembelajaran scrapbook merupakan hasil
+                            handmade yang terbuat dari kertas. Penggunaan media ini efektif karena dapat memberikan
+                            kesan nyata dan menarik bagi peserta didik.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content head end-->
+
+    <!--content section 1  -->
+    <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+                    <img alt="Party"
+                        src="assets/images/Scrapbook Tenwan3.jpg"
+                        class="absolute inset-0 h-full w-full object-cover" />
+                </div>
+
+                <div class="lg:py-24">
+                    <h2 class="text-3xl font-bold sm:text-4xl">Awal mula Scrapbook</h2>
+
+                    <p class="mt-4 text-gray-600">
+                        Scrapbook mulai populer di Inggris pada abad ke-15 sebagai seni menempel foto. Dalam bahasa
+                        Inggris, scrap artinya barang sisa. Scrapbook adalah kegiatan untuk melestarikan kenangan, bisa
+                        berupa kertas atau foto. Pembuatan scrapbook membutuhkan kreativitas dan kepekaan seni.
+                        Scrapbook juga sebagai alat art therapy dan bisa menyembuhkan luka hati, mengurangi stress, dan
+                        mempertajam ingatan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- content ssection 1 end -->
+
+    <!-- content 2 -->
+    <section class="bg-gray-900 text-white">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+            <div class="mx-auto max-w-lg text-center">
+                <h2 class="text-3xl font-bold sm:text-4xl">Tujuan membuat Scrapbook</h2>
+
+                <p class="mt-4 text-gray-300">
+                    scrapbook memiliki tujuan utama yaitu sebagai media untuk melestarikan dan menyusun kenangan seperti
+                    foto dan tulisan ke dalam bentuk buku, kotak, frame atau kartu. selain itu scrapbook juga memiliki
+                    tujuan lain yaitu sebagai berikut
+                </p>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <span
+                    class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                        <path
+                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                    </svg>
+
+                    <h2 class="mt-4 text-xl font-bold text-white">Meningkatkan kreativitas</h2>
+
+                    <p class="mt-1 text-sm text-gray-300">
+                        Scrapbooking memungkinkan seseorang untuk mengasah kreativitas dan kepekaan seni mereka dalam
+                        menata foto, tulisan, dan bahan lainnya ke dalam karya seni yang menarik dan penuh makna.
+                    </p>
+                </span>
+
+                <span
+                    class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                        <path
+                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                    </svg>
+
+                    <h2 class="mt-4 text-xl font-bold text-white">Menyalurkan hobi</h2>
+
+                    <p class="mt-1 text-sm text-gray-300">
+                        Scrapbooking dapat menjadi hobi yang menarik dan memuaskan bagi seseorang yang menyukai seni dan
+                        desain grafis.
+                    </p>
+                </span>
+
+                <span
+                    class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                        <path
+                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                    </svg>
+
+                    <h2 class="mt-4 text-xl font-bold text-white">Dokumentasi dan rekreasi</h2>
+
+                    <p class="mt-1 text-sm text-gray-300">
+                        Scrapbook juga berfungsi sebagai media untuk menyimpan kenangan, dokumen, dan pengalaman yang
+                        dapat dilihat kembali di masa depan. Selain itu, membuat scrapbook juga dapat menjadi sarana
+                        rekreasi dan hiburan yang menyenangkan.
+                    </p>
+                </span>
+
+                <span
+                    class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                        <path
+                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                    </svg>
+
+                    <h2 class="mt-4 text-xl font-bold text-white">Menghilangkan kejenuhan</h2>
+
+                    <p class="mt-1 text-sm text-gray-300">
+                        Ketika seseorang merasa bosan atau jenuh, scrapbooking dapat menjadi kegiatan yang menarik untuk
+                        mengisi waktu luang dan memberikan ketenangan pikiran. Membuat scrapbook juga dapat membantu
+                        mengurangi stres dan memperbaiki kesehatan mental.
+                    </p>
+                </span>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- content 2 end -->
+
+    <!-- content section 3-->
+    <section class="bg-gray-900 text-white">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+            <div class="max-w-xl">
+                <h2 class="text-3xl font-bold sm:text-4xl">Cara membuat scrapbook</h2>
+
+                <p class="mt-4 text-gray-300">
+                    Pembuatan scrapbook frame menggunakan dua cara yakni manual dan digital. Pembuatan secara manual
+                    bahan-bahan yang digunakan yaitu double tip, lem, gunting, gambar, dan karter. Sedangkan pembuatan
+                    seacara digital yaitu membuat desain foto dan background yang digunakan. Langkah-langkah membuat
+                    scrapbook frame yaitu sebagai berikut.
+                </p>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+                <div class="flex items-start gap-4">
+                    <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                            </path>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <h2 class="text-lg font-bold">1. Membuat desain awal</h2>
+
+                        <p class="mt-1 text-sm text-gray-300">
+                            Membuat desain awal, dengan menentukan tema atau materi yang digunakan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                            </path>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <h2 class="text-lg font-bold">2. Membuat desain gambar </h2>
+
+                        <p class="mt-1 text-sm text-gray-300">
+                            Membuat desain gambar dengan menambahkan gambar-gambar hias.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                            </path>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <h2 class="text-lg font-bold">3. Print dan di gunting</h2>
+
+                        <p class="mt-1 text-sm text-gray-300">
+                            Lalu di print dan di gunting-gunting gambar yang sudah di desain.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                            </path>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <h2 class="text-lg font-bold">4. Pembingkaian</h2>
+
+                        <p class="mt-1 text-sm text-gray-300">
+                            Siapkan frame lalu lapisi background frame dengan kertas yang sudah di desain atau
+                            menggunakan kertas kado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                            </path>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <h2 class="text-lg font-bold">5. Menghias</h2>
+
+                        <p class="mt-1 text-sm text-gray-300">
+                            Menempelkan hiasan dan gambar yang telah digunting
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                            </path>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <h2 class="text-lg font-bold">6. Buat lebih menarik</h2>
+
+                        <p class="mt-1 text-sm text-gray-300">
+                            Menghias scrapbook frame semenarik mungkin sehingga menarik digunakan dan materi yang
+                            dijelaskan tersaipaikan dengan baik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- content section end 3-->
+
+    <!-- content video -->
+    <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-3xl font-bold sm:text-4xl">
+                    Contoh video pembuatan scrapbook
+                </h2>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/euBs8Wdm1AM">
+                    </iframe>
+                </div>
+
+                <div class="lg:py-16">
+                    <article class="space-y-4 text-gray-600">
+                        <p>
+                            video pembuatan scrapbook
+                        </p>
+
+                        <p>
+                            Berikut ini adalah video pembuatan scrapbook oleh kelompok projek ....
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content video end -->
+
+    <!-- content end -->
+
+    <footer aria-label="Site Footer" class="bg-gray-100">
+        <div class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+            <div class="absolute top-4 right-4 sm:top-6 sm:right-6 lg:top-8 lg:right-8">
+                <a class="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 sm:p-3 lg:p-4"
+                    href="#MainContent">
+                    <span class="sr-only">Back to top</span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="lg:flex lg:items-end lg:justify-between">
+                <div>
+                    <div class="flex justify-center text-teal-600 lg:justify-start">
+                        <img src="assets/images/soulcreative.png" alt="Logo perusahaan" class="m-4 h-20 w-40 logo">
+                    </div>
+
+                    <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
+                        Home of creations
+                    </p>
+                </div>
+
+                <nav aria-label="Footer Nav" class="mt-12 lg:mt-0">
+                    <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:justify-end lg:gap-12">
+                        <li>
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                                Tentang
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                                Layanan
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                                Projek
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <p class="mt-12 text-center text-sm text-gray-500 lg:text-right">
+                Copyright &copy; 2022. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
